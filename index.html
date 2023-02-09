@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- icones  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font - Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top-container">
+          <div class="store-info-container">
+            <span><i class="fas fa-phone"></i>(94) 9999-9999</span>
+            <span><i class="fas fa-envelope"></i>electrum@mail.com</span>
+            <span
+              ><i class="fas fa-map-marker-alt"></i>Av. dos Pioneiros, 777 -
+              Centro</span
+            >
+          </div>
+          <div class="header-top-menu">
+            <span><i class="fas fa-dollar-sign"></i><a href="#">BRL</a></span>
+            <span><i class="fas fa-user"></i><a href="#">Minha conta</a></span>
+          </div>
+        </div>
+        <div class="main-header">
+          <div class="main-haeder-container">
+            <a href="#">Electrum<i class="fas fa-bolt"></i></a>
+            <form action="#" id="search-form">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Busque Aqui"
+              />
+              <input type="submit" class="btn btn-half" value="Pesquisar" />
+            </form>
+          </div>
+          <div class="header-actions-menu">
+            <div class="header-wishlist-container">
+              <span><i class="fas fa-heart"></i><a href="#">Favoritos</a></span>
+            </div>
+            <div class="haeder-cart-container">
+              <span
+                ><i class="fas fa-shopping-cart"></i
+                ><a href="#">Carrinho</a></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Promoções</a></li>
+              <li><a href="#">Notebooks</a></li>
+              <li><a href="#">Celulares</a></li>
+              <li><a href="#">Câmeras</a></li>
+              <li><a href="#">Acessórios</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="banners">
+      <div class="banner" id="banner-01">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Promoção de Notebooks</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+
+      <div class="banner" id="banner-02">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Lançamentos</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+
+      <div class="banner" id="banner-03">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Câmeras Potentes</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <h2>Produtos Novos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label new">NEW</span>
+          <img src="./img/prod-1.jpg" alt="monitor gamer" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Monitor Gamer MSI</h3>
+          <p class="price">R$ 1225,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">NEW</span>
+          <img src="./img/prod-2.jpg" alt="microfone gamer" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Monitor Gamer MSI</h3>
+          <p class="price">R$ 525,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">NEW</span>
+          <img src="./img/prod-3.jpg" alt="monitor samsumg" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Monitor Samsung</h3>
+          <p class="price">R$ 1525,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label new">NEW</span>
+          <img src="./img/prod-4.jpg" alt="gabinete de pc gamer" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Gabinete Gamer</h3>
+          <p class="price">R$ 1525,99</p>
+          <div class="rating-box"></div>
+        </div>
+      </div>
+    </section>
+    <section class="deal-container">
+      <div class="deal-container-content">
+        <div class="deal-container-content-timer">
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">02</span>
+            <span class="deal-container-timer-word">Dias</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">04</span>
+            <span class="deal-container-timer-word">Horas</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">30</span>
+            <span class="deal-container-timer-word">Minutos</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-time">59</span>
+            <span class="deal-container-timer-word">Segundos</span>
+          </div>
+        </div>
+        <h2 class="deal-container-content-title">Promoção de Fones Gamer</h2>
+        <p class="deal-container-content-desc">
+          Toda a linha gamer com 50% de desconto
+        </p>
+        <button class="btn">Comprar Agora</button>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2>Mais Vendidos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label hot">HOT</span>
+          <img src="./img/prod-5.jpg" alt="controle de video game" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Controle X-box</h3>
+          <p class="price">R$ 625,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">HOT</span>
+          <img src="./img/prod-6.jpg" alt="tablet samsumg prata" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Tablet Samsumg</h3>
+          <p class="price">R$ 1525,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">HOT</span>
+          <img src="./img/prod-7.jpg" alt="notebook acer preto" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Notebook Acer - Aspire 3</h3>
+          <p class="price">R$ 3525,99</p>
+          <div class="rating-box"></div>
+        </div>
+
+        <div class="products-grid-card">
+          <span class="label hot">HOT</span>
+          <img src="./img/prod-8.jpg" alt="mouse gamer" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Mouse Gamer</h3>
+          <p class="price">R$ 225,99</p>
+          <div class="rating-box"></div>
+        </div>
+      </div>
+    </section>
+    <section class="newlestter-container">
+      <h2>Assine a nossa <span>Newlestter</span></h2>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu e-mail"
+        />
+        <input class="btn btn-half" type="submit" value="Assinar" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-top-about">
+          <h3>Sobre nós</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas
+            debitis maxime neque quisquam non nisi ipsum adipisci, tenetur velit
+            nobis, illum ad asperiores cum, numquam doloribus esse rem
+            perferendis?
+          </p>
+          <p>
+            <i class="fas fa-location-arrow"></i>Av. dos Pioneiros, 777 - Centro
+          </p>
+          <p><i class="fas fa-phone"></i>(94) 9999-9999</p>
+          <p><i class="fas fa-envelope"></i>electrum@mail.com</p>
+        </div>
+        <div class="foote-top-categories">
+          <h3>Categorias</h3>
+          <ul>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Headsets</a></li>
+            <li><a href="#">PC Gamer</a></li>
+            <li><a href="#">Câmeras</a></li>
+            <li><a href="#">Teclado e Mouse</a></li>
+          </ul>
+        </div>
+        <div class="foote-top-info">
+          <h3>Informações</h3>
+          <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Entre em Contato</a></li>
+            <li><a href="#">Politica de Privacidade</a></li>
+            <li><a href="#">Pedidos e Devoluções</a></li>
+            <li><a href="#">Termos e Condições</a></li>
+          </ul>
+        </div>
+        <div class="foote-top-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#">Minha conta</a></li>
+            <li><a href="#">Carrinho</a></li>
+            <li><a href="#">Lista de Desejos</a></li>
+            <li><a href="#">Rastrear Produto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-payments">
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-diners-club"></i>
+          <i class="fab fa-cc-amazon-pay"></i>
+          <i class="fab fa-cc-apple-pay"></i>
+        </div>
+        <p>Copyright &copy; Werbeth - 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
