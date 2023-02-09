@@ -1,1 +1,4 @@
-# electrum-project-with-sass
+# Projeto Electrum com SASS
+
+
+Projeto feito no curso da udemy
